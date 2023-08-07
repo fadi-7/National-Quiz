@@ -13,7 +13,6 @@ import 'firebase_options.dart';
 
 
 Future<void> main() async { 
-  git remote add origin https://github.com/yazanabedo/National-Quiz.git
   WidgetsFlutterBinding.ensureInitialized();
    await Get.putAsync(
     () async {
