@@ -1,0 +1,54 @@
+name: nationalquiz
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.3
+  flutter_spinkit: ^5.1.0
+  bot_toast: ^4.0.3
+  shared_preferences: 2.1.0
+  http: ^0.13.4
+  dartz: ^0.10.1
+  cached_network_image: ^3.2.3
+  image_picker: ^0.8.7+5
+  file_picker: ^5.2.9
+  mime: ^1.0.4
+  get: ^4.6.5
+  connectivity_plus: ^3.0.2
+  provider: ^6.0.5
+  location: ^5.0.0
+  geocoding: ^2.1.0
+  google_maps_flutter: ^2.3.0
+  firebase_core: ^2.13.0
+  firebase_messaging: ^14.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  #flutter_lints: ^2.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - images/
