@@ -10,7 +10,7 @@ import 'core/data/repositories/shared_prefreance_repository.dart';
 import 'core/services/cart_serves.dart';
 import 'core/services/connectivity_service.dart';
 import 'firebase_options.dart';
-
+//test
 
 Future<void> main() async { 
   WidgetsFlutterBinding.ensureInitialized();
